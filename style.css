@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    height: 450px;
+    background-color: #303030;
+
+    color: white;
+
+    padding-left: 40px;
+}
+
+.container h1 {
+    padding-top: 200px;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.container p {
+    font-family: Inter;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.mini-bloco {
+    width: auto;
+    height: 150px;
+
+    background-color: #f9f9f9;
+    display: grid;
+    grid-auto-flow: column;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mini-bloco h3 {
+    font-family: Inter;
+    font-size: 25px;
+    color: black;
+}
+
+.mini-bloco p{
+    font-size: 20px;
+    color: black;
+}
+
+.conteudo {
+    width: auto;    
+    padding-top: 60px;
+    display: grid;
+    grid-auto-flow: column;
+
+    align-items:center;
+    text-align: center;
+    font-family: Inter;
+    line-height: 20px;
+}
+
+.conteudo h2{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.conteudo .texto{
+    max-width: 490px;
+    text-align: justify;
+    padding-left: 40px;
+}
+
+.conteudo img{
+    width: 550px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+form{
+    width: auto;
+    height: 450px;
+
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form h3{
+    color: white;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 25px;
+
+    padding: 45px;
+}
+
+input{
+    width: 380px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+input::placeholder{
+    padding: 10px;
+    font-size: 18px;
+}
+
+button{
+    color: white;
+    font-family: Inter;
+    font-size: 17px;
+
+    width: 170px;
+    height: 40px;
+    margin-top: 30px;
+
+    background-color: #C07212;
+    border-radius: 5px;
+
+}
