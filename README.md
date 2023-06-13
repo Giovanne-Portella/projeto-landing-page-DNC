@@ -10,5 +10,7 @@ criar uma landing page como portfólio para uma empresa de arquitetura.
 
 Ferramenta fornecida: Figma
 
+É necessário criar uma pasta "img"
+
 Link Netlify: https://dnc-landing-page-projeto.netlify.app/
 Link Dados de Formulário: https://docs.google.com/spreadsheets/d/1oZ7g1jxU2eX-8p1RLZiv4Pv0ittb_dZd8cYIzijMLmU/edit?usp=sharing
